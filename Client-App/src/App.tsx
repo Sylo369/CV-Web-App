@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
+import axios from "axios";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [portfolios, setPortfolios] = useState<Portfolio[]>([]);
 
   useEffect(() =>{
-    fetch('https://localhost:5001/api/portfolios')
-    .then(response => response.json())
-    .then(data => setPortfolios(data))
+    axios.get<Portfolio[]>('https://localhost:5001/api/portfolios')
+    .then(response => setPortfolios(response.data))
 
     return () => {}
   }, []) 
@@ -15,7 +16,6 @@ function App() {
   return (
     <>
       <Header />
-<h1>test</h1>
       <ul>
         {portfolios.map((portfolio) =>
           (
@@ -23,6 +23,7 @@ function App() {
 
           ))}
       </ul>
+      <Portfolio/>
     </>
   );
 }

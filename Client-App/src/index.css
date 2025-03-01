@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
+  font-family: "Neuton", serif;
+  background-color: grey;
 }
 
 .header {
@@ -11,15 +15,27 @@
   align-items: center;
   justify-content: space-between;
   padding: 0rem 1rem 0rem 1rem;
+  border-bottom: 5px solid rgb(212, 182, 12);
 }
 
 .header__logo{
-
+  background-color: black;
 }
 
-.header__navbox{
+.header__navbox {
+  background-color: black;
 display: flex;
 gap: 3rem;
 font-size: 2rem;
 list-style-type: none;
+}
+
+.header__navbox li{
+  background-color: black;
+}
+
+
+.portfolio {
+  background-color: aquamarine;
+  width: 50
 }
