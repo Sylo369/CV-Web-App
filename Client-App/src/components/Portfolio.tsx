@@ -26,6 +26,7 @@ export default function Portfolio() {
                 <h2>Full Name: {portfolio.name}</h2>
                 <h2>Position: {portfolio.position}</h2>
                 <h2>Tech Stack: {portfolio.techStack}</h2>
+                <h2>Description: {portfolio.description}</h2>
               </div>
             ))}
           </div>

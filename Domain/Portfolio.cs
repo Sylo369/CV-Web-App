@@ -16,6 +16,8 @@ namespace Domain
 
         public required string TechStack {get; set;}
 
+        public required string Description {get; set;}
+
         public required ICollection<Project> Projects {get;set;}
 
 

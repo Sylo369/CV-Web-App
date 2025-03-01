@@ -3,4 +3,5 @@ type Portfolio = {
     name: string
     position: string
     techStack: string
+    description: string
 }

@@ -19,6 +19,7 @@ namespace Persistence
                     Name = "Dimitar Kuzmanov",
                     TechStack = "C#",
                     Position = "Junior Full-Stack Dev",
+                    Description = "Bachelor Degree in Computer Science, Major in Cloud Computing, 2 years work experience in Top Solutions Inc.",
                     Projects = new List<Project>{
 
                         new Project
