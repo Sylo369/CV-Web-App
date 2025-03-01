@@ -438,3 +438,8 @@ packages/react-devtools-fusebox/dist
 packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
 packages/react-devtools-timeline/dist
+API/PRO-Folio.db-wal
+API/PRO-Folio.db-shm
+API/PRO-Folio.db
+API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
+API/obj/Debug/net9.0/API.AssemblyInfo.cs

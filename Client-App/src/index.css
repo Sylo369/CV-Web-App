@@ -35,15 +35,18 @@ list-style-type: none;
 }
 
 .portfolio__block {
-border: 5px solid red;
+ border: solid 3px rgb(0, 0, 0);
+ border-radius: 10px;
   width: 50rem;
   height: 50rem;
-  padding: 1rem
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .portfolio__maintitle {
   display: flex;
-
+  border-bottom: 3px solid;
+  padding-bottom: 1rem;
 }
 
 .portfolio__description {
