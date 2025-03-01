@@ -34,8 +34,19 @@ list-style-type: none;
   background-color: black;
 }
 
+.portfolio__block {
+border: 5px solid red;
+  width: 50rem;
+  height: 50rem;
+  padding: 1rem
+}
 
-.portfolio {
-  background-color: aquamarine;
-  width: 50
+.portfolio__maintitle {
+  display: flex;
+
+}
+
+.portfolio__description {
+ margin-left: 2rem;
+ margin-top: 1rem;
 }
