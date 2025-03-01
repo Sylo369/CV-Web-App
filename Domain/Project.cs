@@ -7,7 +7,7 @@ namespace Domain
 {
     public class Project
     {
-        public string Id = Guid.NewGuid().ToString();
+        public Guid Id {get; set;}
         public required string Title { get; set;}
         public required DateTime StartDate {get;set;}
         public DateTime EndDate {get;set;}
