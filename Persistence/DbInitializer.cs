@@ -17,7 +17,7 @@ namespace Persistence
                 new Portfolio
                 {
                     Name = "Dimitar Kuzmanov",
-                    TechStack = "C#, Javascript, React",
+                    TechStack = "C#",
                     Position = "Junior Full-Stack Dev",
                     Projects = new List<Project>{
 

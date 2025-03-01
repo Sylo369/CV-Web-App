@@ -20,7 +20,6 @@
 .header__navbox{
 display: flex;
 gap: 3rem;
-
 font-size: 2rem;
-
+list-style-type: none;
 }
