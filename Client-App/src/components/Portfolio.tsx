@@ -32,7 +32,13 @@ export default function Portfolio() {
           </div>
         </div>
 
-     
+        <div className="workexp__block">
+        <h1 className="workexp__header">Projects</h1>
+        <div className="workexp__entry">
+            
+        </div>
+        </div>  
+
       </div>
     </>
   );

@@ -53,3 +53,14 @@ list-style-type: none;
  margin-left: 2rem;
 
 }
+
+.workexp__header{
+  text-align: center;
+}
+
+.workexp__entry {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  height: 5rem;
+  margin-top: 1rem;
+}

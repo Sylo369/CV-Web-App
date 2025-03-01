@@ -4,4 +4,12 @@ type Portfolio = {
     position: string
     techStack: string
     description: string
+    projects: Project[];
 }
+
+type Project = {
+  title: string;
+  startDate: Date;
+  endDate?: Date;
+  onGoing: boolean;
+};
